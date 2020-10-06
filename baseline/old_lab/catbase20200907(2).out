@@ -1,0 +1,172 @@
+label:[0 1]
+0    40461645
+1     1445488
+Name: label, dtype: int64
+-------------------------
+0    0.965507
+1    0.034493
+Name: label, dtype: float64
+0    2023082
+1    1445488
+Name: label, dtype: int64
+-------------------------
+0    0.583261
+1    0.416739
+Name: label, dtype: float64
+/home/mengyuan/huawei/catbase.py:90: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  df = pd.concat([train_df,test_df],axis=0)
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:00<00:01,  8.03it/s] 14%|█▍        | 2/14 [00:00<00:01,  8.07it/s] 21%|██▏       | 3/14 [00:00<00:01,  7.53it/s] 29%|██▊       | 4/14 [00:00<00:01,  7.36it/s] 36%|███▌      | 5/14 [00:00<00:01,  7.39it/s] 43%|████▎     | 6/14 [00:00<00:01,  7.60it/s] 50%|█████     | 7/14 [00:00<00:00,  7.78it/s] 57%|█████▋    | 8/14 [00:01<00:00,  7.88it/s] 64%|██████▍   | 9/14 [00:01<00:00,  7.69it/s] 71%|███████▏  | 10/14 [00:01<00:00,  7.60it/s] 79%|███████▊  | 11/14 [00:01<00:00,  7.53it/s] 86%|████████▌ | 12/14 [00:02<00:00,  2.66it/s] 93%|█████████▎| 13/14 [00:02<00:00,  3.09it/s]100%|██████████| 14/14 [00:02<00:00,  3.79it/s]
+-- Mem. usage decreased to 502.86 Mb (71.6% reduction),time spend:0.05 min
+  0%|          | 0/4 [00:00<?, ?it/s]**************************task_id**************************
+**************************adv_id**************************
+**************************dev_id**************************
+**************************slot_id**************************
+**************************spread_app_id**************************
+**************************indu_name**************************
+ 25%|██▌       | 1/4 [00:37<01:53, 37.97s/it]**************************task_id**************************
+**************************adv_id**************************
+**************************dev_id**************************
+**************************slot_id**************************
+**************************spread_app_id**************************
+**************************indu_name**************************
+ 50%|█████     | 2/4 [01:02<01:07, 33.88s/it]**************************task_id**************************
+**************************adv_id**************************
+**************************dev_id**************************
+**************************slot_id**************************
+**************************spread_app_id**************************
+**************************indu_name**************************
+ 75%|███████▌  | 3/4 [01:26<00:30, 30.90s/it]**************************task_id**************************
+**************************adv_id**************************
+**************************dev_id**************************
+**************************slot_id**************************
+**************************spread_app_id**************************
+**************************indu_name**************************
+100%|██████████| 4/4 [01:49<00:00, 28.53s/it]
+['uidtask_id_nunique', 'uidadv_id_nunique', 'uiddev_id_nunique', 'uidslot_id_nunique', 'uidspread_app_id_nunique', 'uidindu_name_nunique', 'agetask_id_nunique', 'ageadv_id_nunique', 'agedev_id_nunique', 'ageslot_id_nunique', 'agespread_app_id_nunique', 'ageindu_name_nunique', 'careertask_id_nunique', 'careeradv_id_nunique', 'careerdev_id_nunique', 'careerslot_id_nunique', 'careerspread_app_id_nunique', 'careerindu_name_nunique', 'net_typetask_id_nunique', 'net_typeadv_id_nunique', 'net_typedev_id_nunique', 'net_typeslot_id_nunique', 'net_typespread_app_id_nunique', 'net_typeindu_name_nunique']
+  0%|          | 0/39 [00:00<?, ?it/s]  3%|▎         | 1/39 [00:05<03:15,  5.16s/it]  5%|▌         | 2/39 [00:10<03:11,  5.16s/it]  8%|▊         | 3/39 [00:15<03:03,  5.09s/it] 10%|█         | 4/39 [00:20<02:59,  5.12s/it] 13%|█▎        | 5/39 [00:25<02:52,  5.07s/it] 15%|█▌        | 6/39 [00:30<02:45,  5.03s/it] 18%|█▊        | 7/39 [00:35<02:40,  5.02s/it] 21%|██        | 8/39 [00:40<02:34,  4.98s/it] 23%|██▎       | 9/39 [00:45<02:29,  4.99s/it] 26%|██▌       | 10/39 [00:50<02:25,  5.03s/it] 28%|██▊       | 11/39 [00:55<02:22,  5.09s/it] 31%|███       | 12/39 [01:00<02:17,  5.11s/it] 33%|███▎      | 13/39 [01:05<02:12,  5.08s/it] 36%|███▌      | 14/39 [01:10<02:06,  5.07s/it] 38%|███▊      | 15/39 [01:16<02:02,  5.12s/it] 41%|████      | 16/39 [01:21<01:56,  5.08s/it] 44%|████▎     | 17/39 [01:26<01:51,  5.05s/it] 46%|████▌     | 18/39 [01:31<01:45,  5.04s/it] 49%|████▊     | 19/39 [01:36<01:43,  5.18s/it] 51%|█████▏    | 20/39 [01:41<01:38,  5.20s/it] 54%|█████▍    | 21/39 [01:46<01:33,  5.19s/it] 56%|█████▋    | 22/39 [01:51<01:27,  5.15s/it] 59%|█████▉    | 23/39 [01:57<01:22,  5.17s/it] 62%|██████▏   | 24/39 [02:02<01:17,  5.19s/it] 64%|██████▍   | 25/39 [02:07<01:12,  5.17s/it] 67%|██████▋   | 26/39 [02:12<01:07,  5.21s/it] 69%|██████▉   | 27/39 [02:18<01:03,  5.28s/it] 72%|███████▏  | 28/39 [02:24<00:59,  5.42s/it] 74%|███████▍  | 29/39 [02:29<00:54,  5.42s/it] 77%|███████▋  | 30/39 [02:34<00:48,  5.36s/it] 79%|███████▉  | 31/39 [02:39<00:42,  5.29s/it] 82%|████████▏ | 32/39 [02:44<00:36,  5.22s/it] 85%|████████▍ | 33/39 [02:50<00:32,  5.34s/it] 87%|████████▋ | 34/39 [02:55<00:26,  5.29s/it] 90%|████████▉ | 35/39 [03:05<00:26,  6.72s/it] 92%|█████████▏| 36/39 [03:11<00:18,  6.33s/it] 95%|█████████▍| 37/39 [03:16<00:12,  6.05s/it] 97%|█████████▋| 38/39 [03:21<00:05,  5.85s/it]100%|██████████| 39/39 [03:27<00:00,  5.68s/it]
+111
+['adv_id', 'adv_prim_id', 'age', 'app_first_class', 'app_score', 'app_second_class', 'career', 'city', 'city_rank', 'communication_avgonline_30d', 'consume_purchase', 'creat_type_cd', 'dev_id', 'device_name', 'device_price', 'device_size', 'emui_dev', 'gender', 'his_app_size', 'his_on_shelf_time', 'id', 'indu_name', 'inter_type_cd', 'list_time', 'membership_life_duration', 'net_type', 'residence', 'slot_id', 'spread_app_id', 'tags', 'task_id', 'uid', 'up_life_duration', 'up_membership_grade', 'slot_id_count', 'net_type_count', 'task_id_count', 'adv_id_count', 'adv_prim_id_count', 'age_count', 'app_first_class_count', 'app_second_class_count', 'career_count', 'city_count', 'consume_purchase_count', 'uid_count', 'dev_id_count', 'tags_count', 'uidtask_id_nunique', 'uidadv_id_nunique', 'uiddev_id_nunique', 'uidslot_id_nunique', 'uidspread_app_id_nunique', 'uidindu_name_nunique', 'agetask_id_nunique', 'ageadv_id_nunique', 'agedev_id_nunique', 'ageslot_id_nunique', 'agespread_app_id_nunique', 'ageindu_name_nunique', 'careertask_id_nunique', 'careeradv_id_nunique', 'careerdev_id_nunique', 'careerslot_id_nunique', 'careerspread_app_id_nunique', 'careerindu_name_nunique', 'net_typetask_id_nunique', 'net_typeadv_id_nunique', 'net_typedev_id_nunique', 'net_typeslot_id_nunique', 'net_typespread_app_id_nunique', 'net_typeindu_name_nunique', 'uidtask_id_nunique_target_enc', 'uidadv_id_nunique_target_enc', 'uiddev_id_nunique_target_enc', 'uidslot_id_nunique_target_enc', 'uidspread_app_id_nunique_target_enc', 'uidindu_name_nunique_target_enc', 'agetask_id_nunique_target_enc', 'ageadv_id_nunique_target_enc', 'agedev_id_nunique_target_enc', 'ageslot_id_nunique_target_enc', 'agespread_app_id_nunique_target_enc', 'ageindu_name_nunique_target_enc', 'careertask_id_nunique_target_enc', 'careeradv_id_nunique_target_enc', 'careerdev_id_nunique_target_enc', 'careerslot_id_nunique_target_enc', 'careerspread_app_id_nunique_target_enc', 'careerindu_name_nunique_target_enc', 'net_typetask_id_nunique_target_enc', 'net_typeadv_id_nunique_target_enc', 'net_typedev_id_nunique_target_enc', 'net_typeslot_id_nunique_target_enc', 'net_typespread_app_id_nunique_target_enc', 'net_typeindu_name_nunique_target_enc', 'net_type_target_enc', 'task_id_target_enc', 'adv_id_target_enc', 'adv_prim_id_target_enc', 'age_target_enc', 'app_first_class_target_enc', 'app_second_class_target_enc', 'career_target_enc', 'city_target_enc', 'consume_purchase_target_enc', 'uid_target_enc', 'uid_count_target_enc', 'dev_id_target_enc', 'tags_target_enc', 'slot_id_target_enc']
+0:	learn: 0.8136238	test: 0.8081367	best: 0.8081367 (0)	total: 65.8ms	remaining: 10m 57s
+50:	learn: 0.8360328	test: 0.8290232	best: 0.8290232 (50)	total: 1.44s	remaining: 4m 40s
+100:	learn: 0.8389376	test: 0.8315727	best: 0.8315727 (100)	total: 2.8s	remaining: 4m 34s
+150:	learn: 0.8403751	test: 0.8327277	best: 0.8327277 (150)	total: 4.12s	remaining: 4m 28s
+200:	learn: 0.8414016	test: 0.8335265	best: 0.8335265 (200)	total: 5.45s	remaining: 4m 25s
+250:	learn: 0.8421157	test: 0.8340247	best: 0.8340247 (250)	total: 6.77s	remaining: 4m 22s
+300:	learn: 0.8426409	test: 0.8343691	best: 0.8343691 (300)	total: 8.1s	remaining: 4m 20s
+350:	learn: 0.8430514	test: 0.8346312	best: 0.8346312 (350)	total: 9.41s	remaining: 4m 18s
+400:	learn: 0.8434185	test: 0.8348574	best: 0.8348574 (400)	total: 10.7s	remaining: 4m 16s
+450:	learn: 0.8437089	test: 0.8350138	best: 0.8350141 (449)	total: 12s	remaining: 4m 14s
+500:	learn: 0.8439830	test: 0.8351604	best: 0.8351615 (499)	total: 13.4s	remaining: 4m 13s
+550:	learn: 0.8442147	test: 0.8352363	best: 0.8352363 (550)	total: 14.7s	remaining: 4m 11s
+600:	learn: 0.8444421	test: 0.8353637	best: 0.8353637 (600)	total: 16s	remaining: 4m 10s
+650:	learn: 0.8446450	test: 0.8354304	best: 0.8354313 (649)	total: 17.3s	remaining: 4m 8s
+700:	learn: 0.8448366	test: 0.8354695	best: 0.8354695 (700)	total: 18.6s	remaining: 4m 6s
+750:	learn: 0.8450196	test: 0.8355300	best: 0.8355300 (750)	total: 19.8s	remaining: 4m 4s
+800:	learn: 0.8452121	test: 0.8355662	best: 0.8355662 (800)	total: 21.1s	remaining: 4m 2s
+850:	learn: 0.8454144	test: 0.8356332	best: 0.8356332 (850)	total: 22.4s	remaining: 4m 1s
+900:	learn: 0.8455812	test: 0.8356746	best: 0.8356746 (900)	total: 23.7s	remaining: 3m 59s
+950:	learn: 0.8457367	test: 0.8357261	best: 0.8357275 (948)	total: 25s	remaining: 3m 58s
+1000:	learn: 0.8459022	test: 0.8357600	best: 0.8357600 (1000)	total: 26.3s	remaining: 3m 56s
+1050:	learn: 0.8460627	test: 0.8357863	best: 0.8357877 (1048)	total: 27.6s	remaining: 3m 55s
+1100:	learn: 0.8462072	test: 0.8358146	best: 0.8358146 (1100)	total: 28.9s	remaining: 3m 53s
+1150:	learn: 0.8463471	test: 0.8358372	best: 0.8358376 (1149)	total: 30.2s	remaining: 3m 52s
+1200:	learn: 0.8464852	test: 0.8358594	best: 0.8358600 (1199)	total: 31.5s	remaining: 3m 50s
+1250:	learn: 0.8466313	test: 0.8358942	best: 0.8358944 (1249)	total: 32.8s	remaining: 3m 49s
+1300:	learn: 0.8467650	test: 0.8359188	best: 0.8359216 (1296)	total: 34.1s	remaining: 3m 47s
+1350:	learn: 0.8469093	test: 0.8359544	best: 0.8359561 (1337)	total: 35.4s	remaining: 3m 46s
+1400:	learn: 0.8470497	test: 0.8359749	best: 0.8359753 (1382)	total: 36.7s	remaining: 3m 45s
+1450:	learn: 0.8471788	test: 0.8359902	best: 0.8359908 (1446)	total: 38s	remaining: 3m 43s
+1500:	learn: 0.8473276	test: 0.8360152	best: 0.8360155 (1497)	total: 39.3s	remaining: 3m 42s
+1550:	learn: 0.8474615	test: 0.8360271	best: 0.8360271 (1550)	total: 40.6s	remaining: 3m 41s
+1600:	learn: 0.8475810	test: 0.8360459	best: 0.8360476 (1598)	total: 41.9s	remaining: 3m 39s
+1650:	learn: 0.8477087	test: 0.8360551	best: 0.8360591 (1638)	total: 43.2s	remaining: 3m 38s
+1700:	learn: 0.8478299	test: 0.8360815	best: 0.8360815 (1700)	total: 44.5s	remaining: 3m 37s
+1750:	learn: 0.8479559	test: 0.8360797	best: 0.8360842 (1704)	total: 45.8s	remaining: 3m 35s
+1800:	learn: 0.8480809	test: 0.8360862	best: 0.8360862 (1800)	total: 47.1s	remaining: 3m 34s
+1850:	learn: 0.8482040	test: 0.8361055	best: 0.8361062 (1849)	total: 48.4s	remaining: 3m 33s
+1900:	learn: 0.8483251	test: 0.8361079	best: 0.8361079 (1900)	total: 49.7s	remaining: 3m 31s
+1950:	learn: 0.8484384	test: 0.8361005	best: 0.8361114 (1916)	total: 50.9s	remaining: 3m 30s
+2000:	learn: 0.8485641	test: 0.8361045	best: 0.8361114 (1916)	total: 52.2s	remaining: 3m 28s
+2050:	learn: 0.8486846	test: 0.8361192	best: 0.8361200 (2040)	total: 53.5s	remaining: 3m 27s
+2100:	learn: 0.8488080	test: 0.8361206	best: 0.8361256 (2073)	total: 54.8s	remaining: 3m 26s
+2150:	learn: 0.8489153	test: 0.8361291	best: 0.8361291 (2150)	total: 56.1s	remaining: 3m 24s
+2200:	learn: 0.8490370	test: 0.8361301	best: 0.8361354 (2172)	total: 57.5s	remaining: 3m 23s
+2250:	learn: 0.8491490	test: 0.8361401	best: 0.8361401 (2250)	total: 58.8s	remaining: 3m 22s
+2300:	learn: 0.8492597	test: 0.8361409	best: 0.8361441 (2277)	total: 1m	remaining: 3m 20s
+2350:	learn: 0.8493761	test: 0.8361506	best: 0.8361520 (2346)	total: 1m 1s	remaining: 3m 19s
+2400:	learn: 0.8494884	test: 0.8361510	best: 0.8361555 (2364)	total: 1m 2s	remaining: 3m 18s
+2450:	learn: 0.8496040	test: 0.8361477	best: 0.8361555 (2364)	total: 1m 3s	remaining: 3m 17s
+2500:	learn: 0.8497182	test: 0.8361487	best: 0.8361555 (2364)	total: 1m 5s	remaining: 3m 15s
+2550:	learn: 0.8498306	test: 0.8361517	best: 0.8361564 (2541)	total: 1m 6s	remaining: 3m 14s
+2600:	learn: 0.8499429	test: 0.8361583	best: 0.8361606 (2581)	total: 1m 7s	remaining: 3m 13s
+2650:	learn: 0.8500561	test: 0.8361635	best: 0.8361635 (2650)	total: 1m 9s	remaining: 3m 11s
+2700:	learn: 0.8501649	test: 0.8361606	best: 0.8361664 (2657)	total: 1m 10s	remaining: 3m 10s
+2750:	learn: 0.8502729	test: 0.8361633	best: 0.8361664 (2657)	total: 1m 11s	remaining: 3m 9s
+2800:	learn: 0.8503934	test: 0.8361578	best: 0.8361664 (2657)	total: 1m 13s	remaining: 3m 7s
+2850:	learn: 0.8505099	test: 0.8361524	best: 0.8361664 (2657)	total: 1m 14s	remaining: 3m 6s
+bestTest = 0.8361664414
+bestIteration = 2657
+Shrink model to first 2658 iterations.
+AUC Score (Valid): 0.836166
+You should provide test set for use best model. use_best_model parameter has been switched to false value.
+0:	learn: 0.8126043	total: 39.6ms	remaining: 1m 45s
+50:	learn: 0.8349808	total: 1.45s	remaining: 1m 13s
+100:	learn: 0.8379052	total: 2.84s	remaining: 1m 11s
+150:	learn: 0.8392941	total: 4.21s	remaining: 1m 9s
+200:	learn: 0.8403115	total: 5.57s	remaining: 1m 8s
+250:	learn: 0.8409932	total: 6.96s	remaining: 1m 6s
+300:	learn: 0.8415037	total: 8.38s	remaining: 1m 5s
+350:	learn: 0.8419169	total: 9.83s	remaining: 1m 4s
+400:	learn: 0.8422974	total: 11.3s	remaining: 1m 3s
+450:	learn: 0.8425826	total: 12.7s	remaining: 1m 2s
+500:	learn: 0.8428302	total: 14.1s	remaining: 1m
+550:	learn: 0.8430808	total: 15.6s	remaining: 59.6s
+600:	learn: 0.8432767	total: 17s	remaining: 58s
+650:	learn: 0.8434724	total: 18.4s	remaining: 56.6s
+700:	learn: 0.8436603	total: 19.7s	remaining: 55s
+750:	learn: 0.8438551	total: 21s	remaining: 53.4s
+800:	learn: 0.8440291	total: 22.4s	remaining: 51.8s
+850:	learn: 0.8441814	total: 23.7s	remaining: 50.3s
+900:	learn: 0.8443298	total: 25.1s	remaining: 48.9s
+950:	learn: 0.8444942	total: 26.4s	remaining: 47.4s
+1000:	learn: 0.8446510	total: 27.8s	remaining: 46s
+1050:	learn: 0.8447881	total: 29.1s	remaining: 44.5s
+1100:	learn: 0.8449222	total: 30.4s	remaining: 43s
+1150:	learn: 0.8450631	total: 31.8s	remaining: 41.6s
+1200:	learn: 0.8451794	total: 33.1s	remaining: 40.1s
+1250:	learn: 0.8453225	total: 34.5s	remaining: 38.7s
+1300:	learn: 0.8454612	total: 35.8s	remaining: 37.3s
+1350:	learn: 0.8455941	total: 37.1s	remaining: 35.9s
+1400:	learn: 0.8457115	total: 38.5s	remaining: 34.5s
+1450:	learn: 0.8458225	total: 39.8s	remaining: 33.1s
+1500:	learn: 0.8459514	total: 41.1s	remaining: 31.7s
+1550:	learn: 0.8460640	total: 42.5s	remaining: 30.3s
+1600:	learn: 0.8461772	total: 43.8s	remaining: 28.9s
+1650:	learn: 0.8462960	total: 45.1s	remaining: 27.5s
+1700:	learn: 0.8464123	total: 46.5s	remaining: 26.1s
+1750:	learn: 0.8465180	total: 47.8s	remaining: 24.7s
+1800:	learn: 0.8466299	total: 49.2s	remaining: 23.4s
+1850:	learn: 0.8467454	total: 50.5s	remaining: 22s
+1900:	learn: 0.8468561	total: 51.9s	remaining: 20.6s
+1950:	learn: 0.8469604	total: 53.2s	remaining: 19.3s
+2000:	learn: 0.8470603	total: 54.6s	remaining: 17.9s
+2050:	learn: 0.8471640	total: 56s	remaining: 16.5s
+2100:	learn: 0.8472717	total: 57.3s	remaining: 15.2s
+2150:	learn: 0.8473735	total: 58.6s	remaining: 13.8s
+2200:	learn: 0.8474734	total: 59.9s	remaining: 12.4s
+2250:	learn: 0.8475734	total: 1m 1s	remaining: 11s
+2300:	learn: 0.8476744	total: 1m 2s	remaining: 9.68s
+2350:	learn: 0.8477769	total: 1m 3s	remaining: 8.32s
+2400:	learn: 0.8478800	total: 1m 5s	remaining: 6.97s
+2450:	learn: 0.8479804	total: 1m 6s	remaining: 5.61s
+2500:	learn: 0.8480812	total: 1m 8s	remaining: 4.25s
+2550:	learn: 0.8481847	total: 1m 9s	remaining: 2.88s
+2600:	learn: 0.8482819	total: 1m 10s	remaining: 1.52s
+2650:	learn: 0.8483719	total: 1m 12s	remaining: 163ms
+2656:	learn: 0.8483825	total: 1m 12s	remaining: 0us
